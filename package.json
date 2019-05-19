@@ -1,0 +1,35 @@
+{
+  "name": "hmac512hmac512",
+  "version": "3.2.6",
+  "description": "Simple JS implementation of HMAC-SHA-512 (but in fact is PRF-HMAC-SHA-512)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "babel": "npx babel src --out-dir dist"
+  },
+  "keywords": [
+    "SHA-512",
+    "SHA512",
+    "HMAC-SHA-512",
+    "Crypto",
+    "Cryptography",
+    "HASH",
+    "HMAC-SHA-512",
+    "PRF-HMAC-SHA-512"
+  ],
+  "author": "Andrey Krasovsky",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^7.2.1",
+    "ramda": "^0.25.0",
+    "sha512sha512": "^4.5.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/register": "^7.0.0"
+  }
+}
